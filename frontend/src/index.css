@@ -9,11 +9,13 @@
 body {
   font-family: 'Poppins', sans-serif;
   height: 100vh;
+  background-color: #F0ECDD;
+
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #35140D;
 }
 
 p {
@@ -33,14 +35,21 @@ h2,
 h3 {
   font-weight: 600;
   margin-bottom: 10px;
+  color: #35140D;
 }
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   text-align: center;
+  background-color: #F0ECDD;
+}
+
+.logo{
+  font-size:x-large;
+  font-weight: bolder;
 }
 
 .header {
@@ -51,6 +60,8 @@ h3 {
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 60px;
 }
+
+
 
 .header ul {
   display: flex;
@@ -68,7 +79,7 @@ h3 {
 }
 
 .header ul li a:hover {
-  color: #777;
+  color: #A46843;
 }
 
 .header ul li a svg {
@@ -83,7 +94,7 @@ h3 {
 }
 
 .heading p {
-  color: #828282;
+  color: #A46843;
 }
 
 .goals {
@@ -93,10 +104,15 @@ h3 {
 }
 
 .goal {
-  background-color: #f4f4f4;
+  background-color: #BD8E62;
   margin: 10px 0;
   padding: 20px 0 10px;
   position: relative;
+}
+
+.time{
+  font-weight: normal;
+  font-size: large;
 }
 
 .goal .close {
@@ -121,9 +137,9 @@ h3 {
 .form-group input,
 .form-group textarea,
 .form-group select {
-  width: 100%;
+  width: 50%;
   padding: 10px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #A46843;
   border-radius: 5px;
   margin-bottom: 10px;
   font-family: inherit;
@@ -133,13 +149,14 @@ h3 {
   text-align: left;
   display: block;
   margin: 0 0 5px 3px;
+  color: #A46843;
 }
 
 .btn {
   padding: 10px 20px;
-  border: 1px solid #000;
+  border: 1px solid #35140D;
   border-radius: 5px;
-  background: #000;
+  background:#35140D;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
@@ -161,7 +178,14 @@ h3 {
 }
 
 .btn-block {
-  width: 100%;
+  width: 50%;
+  margin-left: 204px;
+  margin-bottom: 20px;
+}
+
+.btn-goal{
+  width: 50%;
+  margin-left: 197px;
   margin-bottom: 20px;
 }
 
